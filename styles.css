@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 :root {
@@ -18,6 +17,7 @@
   --mb-6: 48px;
   --z-back: -10;
   --z-fixed: 100;
+  background-color: aliceblue;
 }
 @media screen and (min-width: 968px) {
   :root {
@@ -41,6 +41,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
+  background-color: aliceblue;
 }
 
 h1, h2, p {
@@ -100,7 +101,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #fff;
+  background-color: aliceblue;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -110,6 +111,7 @@ img {
   justify-content: space-between;
   align-items: center;
   font-weight: var(--font-semi);
+  background-color: aliceblue;
 }
 .nav__item {
   margin-bottom: var(--mb-4);
@@ -137,6 +139,7 @@ img {
   color: var(--second-color);
   font-size: 24px;
   cursor: pointer;
+  
 }
 
 .active-link::after {
@@ -146,7 +149,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: aliceblue;
 }
 
 .show {
@@ -305,6 +308,7 @@ img {
   border: 1.5px solid var(--second-color);
   outline: none;
   margin-bottom: var(--mb-4);
+  background-color: aliceblue;
 }
 .contact__button {
   display: block;
